@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1258499145522424}
+  m_IsPrefabParent: 1
+--- !u!1 &1258499145522424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4353139006798094}
+  - component: {fileID: 114101557094837430}
+  - component: {fileID: 114934958994427020}
+  - component: {fileID: 114090630760828876}
+  - component: {fileID: 114718044865893578}
+  - component: {fileID: 114379056162684480}
+  m_Layer: 0
+  m_Name: 'Gcontroller '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4353139006798094
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258499145522424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8008831, y: 0.84383553, z: 0.22765219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114090630760828876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258499145522424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18bb45d2a17d2c246a05d99d68349a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomJogo: {fileID: 0}
+  btnMenu: {fileID: 0}
+  btnInciar: {fileID: 0}
+  pause: 0
+  ControlP: {fileID: 114934958994427020}
+--- !u!114 &114101557094837430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258499145522424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a571eded3b505849842287538d28bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomJogo: {fileID: 0}
+  txtPergunta: {fileID: 0}
+  respostaA: {fileID: 0}
+  respostaB: {fileID: 0}
+  respostaC: {fileID: 0}
+  respostaD: {fileID: 0}
+  perguntas:
+  - 3 + 4=?
+  - 2 + 7=?
+  - 3 + 5=?
+  - 0 + 6=?
+  - 3 + 6=?
+  - 4 + 3=?
+  - 7 + 2=?
+  - 5 + 3=?
+  - 6 + 0=?
+  - 6 + 3=?
+  - "Substitua a interroga\xE7\xE3o pelo n\xFAmero: 3 + ?=6"
+  - "Substitua a interroga\xE7\xE3o pelo n\xFAmero:: 2 + ?=6"
+  - "Sbstitua a interroga\xE7\xE3o pelo numo: 5 + ?=6"
+  - "Substitua a interroga\xE7\xE3o pelo numo: 4 + ?=6"
+  - "Substitua a interroga\xE7\xE3o pelo numo: 4 + ?=8"
+  - "Substitua a interroga\xE7\xE3o pelo numo: 3 + ?=8"
+  - "Substitua a interroga\xE7\xE3o pelo numo: 6 + ?=8"
+  - "Substitua a interroga\xE7\xE3o pelo numo:5 + ? = 8"
+  - "Substitua a interroga\xE7\xE3o pelo numo: 5 + ? = 7"
+  - "Substitua a interroga\xE7\xE3o pelo n\xFAmero: 1 + ? = 7"
+  - "Substitua a interroga\xE7\xE3o pelo n\xFAmero: 4 + ? = 7"
+  - "Substitua a interroga\xE7\xE3o pelo n\xFAmero: 2 + ? = 7"
+  - "Substitua a interroga\xE7\xE3o pelo n\xFAmero: 4 + 1 = ?"
+  - "Substitua a interroga\xE7\xE3o pelo numo:7 + 2=?"
+  - "Numa fruteira h\xE1 5 ma\xE7\xE3s e 2 laranjas. Ao todo, quantas frutas h\xE1
+    na fruteira?"
+  - "M\xF4nica tem 2 anos. Dora \xE9 2 anos mais velha que M\xF4nica. Qual \xE9 a
+    idade de Dora? "
+  - Felipe fez 3 pipas azuis e 6 pipas amarelas. Quantas pipas Felipe fez ao todo?
+  - "Bruno comeu 2 sandu\xEDches de queijo. Pedro e Tiago comeram juntos 5 sandu\xEDches
+    de presunto. Quantos sanduiches os meninos comeram ao todo?"
+  - Samuel tem 4 carrinhos de corrida. Rodrigo tem 2 carrinhos a mais que Samuel.
+    Quantos carrinhos de corrida tem Rodrigo?
+  - "Cristiane ganhou 4 livros de hist\xF3rias infantis. Ver\xF4nica, sua irm\xE3,
+    ganhou a mesma quantidade. Quantos livros t\xEAm as duas irm\xE3s?"
+  quantPergunt: 30
+  alternativasA:
+  - 7
+  - 5
+  - 2
+  - 5
+  - 6
+  - 3
+  - 9
+  - 0
+  - 1
+  - 5
+  - 9
+  - 0
+  - 2
+  - 5
+  - 4
+  - 5
+  - 2
+  - 2
+  - 6
+  - 10
+  - 5
+  - 4
+  - 10
+  - 9
+  - 2
+  - 3
+  - 8
+  - 2
+  - 3
+  - 10
+  alternativasB:
+  - 4
+  - 7
+  - 4
+  - 6
+  - 9
+  - 1
+  - 3
+  - 1
+  - 3
+  - 4
+  - 1
+  - 4
+  - 7
+  - 2
+  - 3
+  - 0
+  - 7
+  - 5
+  - 4
+  - 6
+  - 7
+  - 6
+  - 7
+  - 7
+  - 7
+  - 4
+  - 2
+  - 5
+  - 4
+  - 7
+  alternativasC:
+  - 1
+  - 3
+  - 8
+  - 7
+  - 1
+  - 9
+  - 1
+  - 8
+  - 6
+  - 1
+  - 3
+  - 6
+  - 0
+  - 8
+  - 7
+  - 2
+  - 9
+  - 1
+  - 2
+  - 1
+  - 3
+  - 1
+  - 5
+  - 1
+  - 3
+  - 1
+  - 9
+  - 1
+  - 6
+  - 4
+  alternativasD:
+  - 0
+  - 9
+  - 3
+  - 4
+  - 10
+  - 7
+  - 5
+  - 9
+  - 10
+  - 9
+  - 5
+  - 7
+  - 1
+  - 1
+  - 9
+  - 10
+  - 4
+  - 3
+  - 0
+  - 9
+  - 8
+  - 5
+  - 9
+  - 4
+  - 8
+  - 9
+  - 3
+  - 0
+  - 5
+  - 9
+  corretas:
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 7
+  - 9
+  - 8
+  - 6
+  - 9
+  - 3
+  - 4
+  - 1
+  - 2
+  - 4
+  - 5
+  - 2
+  - 3
+  - 2
+  - 6
+  - 3
+  - 5
+  - 5
+  - 9
+  - 7
+  - 4
+  - 9
+  - 2
+  - 4
+  - 4
+  acertou: 0
+  ControlP: {fileID: 114934958994427020}
+  Pause: {fileID: 114090630760828876}
+--- !u!114 &114379056162684480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258499145522424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a7a58e37133d94aa533eaf6b53fddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tLimite: 0
+  minuto: 3
+  segundo: 0
+  txtMinuto: {fileID: 0}
+  ControlP: {fileID: 114934958994427020}
+--- !u!114 &114718044865893578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258499145522424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1462914f322b474478fcd44df6b20fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomJogo: {fileID: 0}
+  iniciar: {fileID: 0}
+  tutorial: {fileID: 0}
+  audio: {fileID: 0}
+  sair: {fileID: 0}
+  sobre: {fileID: 0}
+  telaAudio: {fileID: 0}
+  telaSair: {fileID: 0}
+  telaSelection: {fileID: 0}
+  telaMenu: {fileID: 0}
+--- !u!114 &114934958994427020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258499145522424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b48cde16c5685f4dad8ff1554d74da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piscarSeta: 1
+  dado: {fileID: 0}
+  da: {fileID: 0}
+  SomJogo: {fileID: 0}
+  followPlayer: {fileID: 0}
+  txtJogador: {fileID: 0}
+  player: 1
+  alet: {fileID: 0}
+  MoverObjeto: {fileID: 0}
+  btnLancar: {fileID: 0}
+  encerrou: 0
+  TelaPergunta: {fileID: 0}
+  TelaInfo: {fileID: 0}
+  Responder: {fileID: 114101557094837430}
+  Pause: {fileID: 114090630760828876}
+  tmp: {fileID: 114379056162684480}
+  lancarBool: 0

@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1176429216333468}
+  m_IsPrefabParent: 1
+--- !u!1 &1176429216333468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4917236698734574}
+  - component: {fileID: 114875679554406714}
+  - component: {fileID: 114404691187552946}
+  - component: {fileID: 114313724104489864}
+  - component: {fileID: 114299755918226524}
+  - component: {fileID: 114213563728190382}
+  m_Layer: 0
+  m_Name: Gcontroller 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4917236698734574
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176429216333468}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8008831, y: 0.84383553, z: 0.22765219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114213563728190382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176429216333468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a7a58e37133d94aa533eaf6b53fddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tLimite: 0
+  minuto: 3
+  segundo: 0
+  txtMinuto: {fileID: 0}
+  ControlP: {fileID: 114404691187552946}
+--- !u!114 &114299755918226524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176429216333468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1462914f322b474478fcd44df6b20fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomJogo: {fileID: 0}
+  iniciar: {fileID: 0}
+  tutorial: {fileID: 0}
+  audio: {fileID: 0}
+  sair: {fileID: 0}
+  sobre: {fileID: 0}
+  telaAudio: {fileID: 0}
+  telaSair: {fileID: 0}
+  telaSelection: {fileID: 0}
+  telaMenu: {fileID: 0}
+--- !u!114 &114313724104489864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176429216333468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18bb45d2a17d2c246a05d99d68349a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomJogo: {fileID: 0}
+  btnMenu: {fileID: 0}
+  btnInciar: {fileID: 0}
+  pause: 0
+  ControlP: {fileID: 114404691187552946}
+--- !u!114 &114404691187552946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176429216333468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b48cde16c5685f4dad8ff1554d74da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piscarSeta: 1
+  dado: {fileID: 0}
+  da: {fileID: 0}
+  SomJogo: {fileID: 0}
+  followPlayer: {fileID: 0}
+  txtJogador: {fileID: 0}
+  player: 1
+  alet: {fileID: 0}
+  MoverObjeto: {fileID: 0}
+  btnLancar: {fileID: 0}
+  encerrou: 0
+  TelaPergunta: {fileID: 0}
+  TelaInfo: {fileID: 0}
+  Responder: {fileID: 114875679554406714}
+  Pause: {fileID: 114313724104489864}
+  tmp: {fileID: 114213563728190382}
+  lancarBool: 0
+--- !u!114 &114875679554406714
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1176429216333468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a571eded3b505849842287538d28bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomJogo: {fileID: 0}
+  txtPergunta: {fileID: 0}
+  respostaA: {fileID: 0}
+  respostaB: {fileID: 0}
+  respostaC: {fileID: 0}
+  respostaD: {fileID: 0}
+  perguntas:
+  - "28 + 46 \u2013 17=?"
+  - "43 \u2013 18 + 9=?"
+  - "9 \u2013 5 + 8 \u2013 2=?"
+  - "15 + 12 + 9 \u2013 8=?"
+  - "26 + 3 \u2013 18 + 6=?"
+  - "7 + 7 \u2013 5 + 12=?"
+  - "10 \u2013 7 + 35 \u2013 26=?"
+  - "52 \u2013 28 + 8 \u2013 16=?"
+  - "30 + 4 \u2013 19 \u2013 5=?"
+  - "46 + 12 \u2212 38 + 3 \u2212 14=?"
+  quantPergunt: 10
+  alternativasA:
+  - 54
+  - 34
+  - 26
+  - 28
+  - 21
+  - 25
+  - 7
+  - 16
+  - 11
+  - 8
+  alternativasB:
+  - 4
+  - 2
+  - 4
+  - 10
+  - 8
+  - 1
+  - 3
+  - 1
+  - 3
+  - 4
+  alternativasC:
+  - 34
+  - 34
+  - 10
+  - 28
+  - 23
+  - 19
+  - 12
+  - 15
+  - 12
+  - 7
+  alternativasD:
+  - 57
+  - 34
+  - 15
+  - 28
+  - 17
+  - 10
+  - 11
+  - 18
+  - 10
+  - 6
+  corretas:
+  - 57
+  - 34
+  - 10
+  - 28
+  - 17
+  - 21
+  - 12
+  - 16
+  - 10
+  - 9
+  acertou: 0
+  ControlP: {fileID: 114404691187552946}
+  Pause: {fileID: 114313724104489864}
